@@ -53,7 +53,7 @@ export default function Hero() {
         </div>
 
         {/* Video Controls */}
-        <div className="absolute bottom-8 right-8 flex items-center space-x-4">
+        {/* <div className="absolute bottom-8 right-8 flex items-center space-x-4">
           <button
             onClick={() => setIsPlaying(!isPlaying)}
             className="glass-effect p-3 rounded-full hover:bg-white/20 transition-colors"
@@ -66,7 +66,7 @@ export default function Hero() {
           >
             {isMuted ? <VolumeX size={20} /> : <Volume2 size={20} />}
           </button>
-        </div>
+        </div> */}
       </div>
 
       {/* Scroll Indicator */}
