@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Hero from "../components/Hero";
 import ServiceCard from "../components/ServiceCard";
 import TestimonialCard from "../components/TestimonialCard";
@@ -80,7 +81,7 @@ const testimonials = [
     comment:
       "As an EV owner, I was worried about finding specialized service. AutoElite exceeded my expectations!",
     avatar:
-      "https://images.unsplash.com/photo-1494790108755-2616b612b786?auto=format&fit=crop&w=100",
+      "https://www.bing.com/th/id/OIP.OAlcb7uwPa9yadcfXEKqPgHaE8?w=249&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
   },
   {
     name: "James Wilson",
@@ -227,7 +228,9 @@ export default function Home() {
                 difference. Your vehicle deserves the best care.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <button className="btn-primary">Book Now</button>
+                <Link href="/services">
+                  <button className="btn-primary">Book Now</button>
+                </Link>
                 <button className="btn-secondary">Call: (555) 123-4567</button>
               </div>
             </div>

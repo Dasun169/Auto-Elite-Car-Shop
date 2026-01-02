@@ -280,12 +280,18 @@ export default function BookPage() {
                           name="vehicleType"
                           value={formData.vehicleType}
                           onChange={handleChange}
-                          className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg focus:outline-none focus:border-accent transition-colors"
+                          className="w-full px-4 py-3 bg-secondary border border-white/10 rounded-lg focus:outline-none focus:border-accent transition-colors text-white"
                           required
                         >
-                          <option value="">Select vehicle type</option>
+                          <option value="" className="bg-secondary text-white">
+                            Select vehicle type
+                          </option>
                           {vehicleTypes.map((type) => (
-                            <option key={type} value={type}>
+                            <option
+                              key={type}
+                              value={type}
+                              className="bg-secondary text-white hover:bg-accent hover:text-white"
+                            >
                               {type}
                             </option>
                           ))}
