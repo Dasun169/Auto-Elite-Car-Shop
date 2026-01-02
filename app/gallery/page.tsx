@@ -77,7 +77,8 @@ export default function GalleryPage() {
                 See our certified technicians at work using the latest
                 diagnostic equipment and repair techniques. From engine
                 overhauls to precision detailing, every service is performed
-                with meticulous attention to detail.
+                with meticulous attention to detail. (Here this is a temp video
+                embed from yt)
               </p>
               <ul className="space-y-3">
                 {[
@@ -100,12 +101,15 @@ export default function GalleryPage() {
 
             <div className="relative aspect-video rounded-xl overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-r from-accent/20 to-transparent" />
-              <img
-                src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=800"
-                alt="Workshop Video"
-                className="w-full h-full object-cover"
+              <iframe
+                src="https://www.youtube.com/embed/Qh9D-FegJw8?si=V0dDdpGlvABt6Ifc"
+                title="AutoElite Workshop Tour"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                className="absolute inset-0 w-full h-full"
+                style={{ border: 0 }}
               />
-              <div className="absolute inset-0 flex items-center justify-center">
+              {/* <div className="absolute inset-0 flex items-center justify-center">
                 <div className="bg-accent hover:bg-accent/90 text-white p-4 rounded-full cursor-pointer transition-colors">
                   <svg
                     className="h-12 w-12"
@@ -115,7 +119,7 @@ export default function GalleryPage() {
                     <path d="M8 5v14l11-7z" />
                   </svg>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
