@@ -298,22 +298,22 @@ export default function ContactPage() {
                 )}
               </div>
 
-              {/* Map Section */}
+              {/* Map Section with Google Maps Embed */}
               <div className="glass-effect rounded-xl p-6 mt-8">
                 <h3 className="text-2xl font-heading font-semibold mb-6">
                   Find Our Location
                 </h3>
                 <div className="aspect-video rounded-lg overflow-hidden">
-                  {/* Google Maps Embed - Replace with your actual embed code */}
-                  <div className="w-full h-full bg-gray-800 flex items-center justify-center">
-                    <div className="text-center">
-                      <MapPin className="h-12 w-12 text-accent mx-auto mb-4" />
-                      <p className="text-gray-400">Google Maps Integration</p>
-                      <p className="text-sm text-gray-500 mt-2">
-                        Replace this with your actual Google Maps embed code
-                      </p>
-                    </div>
-                  </div>
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31687.298622378326!2d79.91787520000001!3d6.9010880000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bb00587a2631%3A0xa3e9ba619f4242e8!2sAuto%20Elite!5e0!3m2!1sen!2slk!4v1767328699027!5m2!1sen!2slk"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Auto Elite Location"
+                  />
                 </div>
               </div>
             </div>
