@@ -12,13 +12,13 @@ const galleryImages = [
   },
   {
     id: 2,
-    url: "https://images.unsplash.com/photo-1621461133947-f63381c2f7f8?auto=format&fit=crop&w=800",
+    url: "https://tse1.mm.bing.net/th/id/OIP.JcFZmLBPCFkPPbBKwyO1hgHaEL?rs=1&pid=ImgDetMain&o=7&rm=3",
     title: "Engine Repair",
     category: "Services",
   },
   {
     id: 3,
-    url: "https://images.unsplash.com/photo-1494976388901-750342ad5036?auto=format&fit=crop&w=800",
+    url: "https://1.bp.blogspot.com/-Cy2_084I5WM/XxbTSKnWzjI/AAAAAAAAADQ/oY8Os9Bi2rozuLbvwd1rT6ZdyjqEr35SwCLcBGAsYHQ/s1600/Car%2BService%2BBridgnorth.jpg",
     title: "Luxury Car Service",
     category: "Services",
   },
@@ -30,7 +30,7 @@ const galleryImages = [
   },
   {
     id: 5,
-    url: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=800",
+    url: "https://www.supreme-auto.ca/alignment-002/",
     title: "Wheel Alignment",
     category: "Services",
   },
@@ -42,19 +42,19 @@ const galleryImages = [
   },
   {
     id: 7,
-    url: "https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&w=800",
+    url: "https://th.bing.com/th/id/R.68d691f1d4043d7d476e9c0d43c35535?rik=fsGKebKxMWHUdg&pid=ImgRaw&r=0",
     title: "Before & After",
     category: "Detailing",
   },
   {
     id: 8,
-    url: "https://images.unsplash.com/photo-1593941707882-a5bba5338fe2?auto=format&fit=crop&w=800",
+    url: "https://tse2.mm.bing.net/th/id/OIP.hQbgETPFV9jzjmeFbhiirgHaE6?rs=1&pid=ImgDetMain&o=7&rm=3",
     title: "Diagnostics",
     category: "Services",
   },
   {
     id: 9,
-    url: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=800",
+    url: "https://static.vecteezy.com/system/resources/previews/029/563/005/non_2x/an-image-of-all-the-different-parts-that-are-used-in-cars-free-photo.jpg",
     title: "Quality Parts",
     category: "Parts",
   },
